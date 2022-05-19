@@ -1,0 +1,78 @@
+.box{
+    /* display: flex;  */
+    flex-direction: column;
+    /* height: 40vh;  */
+    width: 70vw; 
+    top: 50%;
+    left: 50%;
+    position: fixed; 
+    transform: translate(-50%, -50%);
+    border-radius: 8%;
+    filter: drop-shadow(0 0 1rem rgb(0, 0, 0));
+    z-index: 6;
+    align-items: center;
+    justify-content: center; 
+}
+
+.header{
+    text-align: center;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    text-decoration: double;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.smellCancelIcon{
+    display: flex;
+    position: fixed;
+    margin: 3%;
+    top: 1%;
+    left: 85%;
+    z-index: 10;
+}
+
+
+.title{
+    
+    margin: 3%;
+}
+
+.category{
+    display: flex;
+    align-self: center;
+    margin: 2%;
+    width: 70%;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.switch{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+}
+
+.submit{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    margin: 2%;
+}
